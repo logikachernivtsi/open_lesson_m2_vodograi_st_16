@@ -1,0 +1,39 @@
+body{
+  font-family: sans-serif;
+  margin: 0;
+  background-color: #8f8f8f;
+  background: linear-gradient(#fc6060, #ffffff);
+}
+header {
+    text-align: center;
+}
+main {
+    text-align: center;
+}
+h4 {
+    font-size: 24px;
+}
+h3 {
+    font-size: 24px;
+}
+h2 {
+    font-size: 24px;
+}
+main {
+    font-size: 18px;
+}
+
+
+.about{
+    width:80%;
+    padding:20px;
+    margin:0 auto;
+    border:1px solid black
+    
+}
+footer {
+    text-align: center;
+    color:white;
+    background-color:#820000;
+    padding:10px;
+}
