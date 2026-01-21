@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+    font-family: "Segoe UI", Roboto, Arial, sans-serif;
+    background: #fff8f0;
+    color: #000000;
+   font-size: 20px;
+}
+
+
+header {
+    padding: 18px 24px;
+    background:#B52F2F;
+    color: white;
+    display: flex;
+    align-items: center;
+   
+}
+
+main{
+    padding:20px;
+}
+
+footer {
+    padding: 20px;
+    height: 60px;
+    background: #f0e6e0;
+}
+
+img{
+    height:300px;
+}
+
+p{
+    font-size:16px;
+}
