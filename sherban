@@ -1,0 +1,32 @@
+<html>
+    <head>
+            <title>Roblox World</title>
+            <link rel = "stylesheet" href="style.css"/>
+    </head>
+<body>
+    <header>
+        <h1>Roblox World - Grow a Garden</h1>
+        <nav class="menu">
+            <a href="https://www.roblox.com/games/126884695634066/Grow-a-Garden">грати</a>
+            <a href="https://www.roblox.com/home">головна</a>
+        </nav>
+</header>
+
+<main class="hero">
+    <div>
+        <h2>Лови задоволення від гри</h2>
+        <p><i>Роблокс дає натхнення</i></p>
+        <a href = "https://www.roblox.com/games/126884695634066/Grow-a-Garden" class="order"></a>
+    </div>
+    <img src ="favorite-and-unfavorite-fruits-in-roblox-grow-a-garden (1).avif" width = "44%">
+    <img class ="Roblox-img" src="3fab4f60-4d1c-11f0-8c47-237c2e4015f5.jpg.webp" width = "44%">
+    <p>Grow a Garden — це популярний симулятор садівництва на платформі Roblox, де гравці вирощують, доглядають та продають різноманітні рослини, фрукти й овочі, заробляючи внутрішню валюту (Шекли) для розширення свого городу, вирощування рідкісних мутованих видів та торгівлі ними з іншими гравцями, створюючи власну процвітаючу ферму. Гра відзначається швидким зростанням популярності, інноваційним ігровим процесом та регулярними оновленнями з новими рослинами, погодними умовами й функціями. 
+    <p>Grow a Garden чемпіон по рейтингу усіх ігор в роблоксі і в нього було 40,1B візитів.</p>
+    <p> коли граєш у роблокс отримуєш задоволення</p>
+</main>
+        <footer>
+             <p>ми ділимося корисною і цікавою інформацією для вас щоб ви знали багато інформації про ігри в роблоксі</p>
+             <p>© Сайт зробив Щербан Павло</p>
+        </footer>
+</body>
+</html>
