@@ -1,0 +1,236 @@
+body{
+  font-family: sans-serif;
+  margin: 0;
+  
+}
+
+main {
+    background-color:#FD0006;
+    font-weight: bold;
+    
+}
+.button-container {
+  display: flex;
+  
+  gap: 20px;
+  justify-content: center;
+  padding: 50px;
+  background: #f0f2f5;
+}
+
+.btn {
+  padding: 15px 35px;
+  border: none;
+  border-radius: 12px;
+  font-size: 18px;
+  font-weight: bold;
+  color: white;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+
+.btn-sport {
+  background: linear-gradient(135deg, #007bff, #00d4ff);
+}
+
+
+.btn-facts {
+  background: linear-gradient(135deg, #6610f2, #6f42c1);
+}
+
+.btn:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 25px rgba(0,0,0,0.2);
+  filter: brightness(1.1);
+}
+.champion-section {
+  max-width: 650px;
+  margin: 40px auto;
+  font-family: 'Arial', sans-serif;
+  line-height: 1.6;
+  color: #333;
+  background-color: #a52a2a;
+  padding:30px;
+}
+
+
+.red-text {
+  color: #ce1126;
+  text-transform: uppercase;
+}
+
+.main-title {
+  font-size: 28px;
+  border-bottom: 2px solid #ce1126;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+}
+
+.intro {
+  font-size: 18px;
+  margin-bottom: 40px;
+  color: #fff;
+}
+
+
+.facts-container {
+  position: relative;
+  padding-left: 20px;
+}
+
+.fact-row {
+  display: flex;
+  margin-bottom: 30px;
+  align-items: flex-start;
+}
+
+
+.red-marker {
+  background-color: #ce1126;
+  color: white;
+  padding: 5px 12px;
+  font-weight: bold;
+  font-size: 14px;
+  border-radius: 4px;
+  min-width: 70px;
+  text-align: center;
+  margin-right: 20px;
+  flex-shrink: 0;
+  box-shadow: 3px 3px 0px rgba(206, 17, 38, 0.2);
+}
+
+
+.fact-body {
+  font-size: 16px;
+  color: #222;
+}
+
+
+.red-highlight {
+  border-bottom: 2px solid #ce1126;
+  font-weight: 500;
+}
+
+
+.fact-row:hover .red-marker {
+  transform: scale(1.1);
+  transition: 0.3s;
+  background-color: #e6142c;
+}
+.site-footer {
+  background-color: #1a1a1a; 
+  color: #ffffff;
+  padding: 40px 20px;
+  text-align: center;
+  border-top: 3px solid #ce1126; 
+  margin-top: 50px;
+}
+
+.footer-link {
+  color: #cccccc;
+  text-decoration: none;
+  font-size: 16px;
+  transition: all 0.3s ease;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+}
+
+
+.champion-brand {
+  color: #ffffff;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  position: relative;
+}
+
+.footer-link:hover {
+  color: #ffffff;
+}
+
+.footer-link:hover .champion-brand {
+  color: #ce1126;
+}
+
+.champion-brand::after {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 2px;
+  bottom: -2px;
+  left: 0;
+  background-color: #ce1126;
+  transition: width 0.3s ease;
+}
+
+.footer-link:hover .champion-brand::after {
+  width: 100%;
+}
+
+.product-grid {
+  display: flex;
+  gap: 25px;
+  justify-content: center;
+  flex-wrap: wrap; 
+  padding: 40px 20px;
+}
+
+/* Сама картка */
+.product-card {
+  background: white;
+  border: 1px solid #eee;
+  border-radius: 12px;
+  width: 280px;
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  text-align: center;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+}
+
+.product-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+}
+
+
+.product-image img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover
+}
+
+.product-info {
+  padding: 20px;
+}
+
+.product-title {
+  font-size: 18px;
+  margin: 0 0 10px 0;
+  color: #333;
+}
+
+.product-price {
+  font-size: 20px;
+  font-weight: bold;
+  color: #ce1126;
+  margin-bottom: 20px;
+}
+
+.buy-button {
+  display: block;
+  background-color: #ce1126;
+  color: white;
+  text-decoration: none;
+  padding: 12px 15px;
+  border-radius: 6px;
+  font-weight: bold;
+  transition: background 0.3s;
+  font-size: 14px;
+}
+
+.buy-button:hover {
+  background-color: #1a2a6c;
+}
